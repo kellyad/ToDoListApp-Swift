@@ -12,9 +12,7 @@ import UIKit
 protocol DetailViewControllerDelegate: class {
     func didSaveTask(task: Tasks?, at indexPath: IndexPath)
 
-    
 }
-
 
 class DetailViewController: UIViewController, EditViewControllerDelegate {
 
